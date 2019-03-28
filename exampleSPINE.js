@@ -19,7 +19,7 @@ function onLoaded (loader,res) {
    
     for(var alienIndex = 0; alienIndex < params.alienQuantity; alienIndex++){
         alienList[alienIndex] = new PIXI.spine.Spine(res.alien.spineData);
-        //alienList[alienIndex].skeleton.setSlotsToSetupPose();
+        alienList[alienIndex].skeleton.setSlotsToSetupPose();
         
         alienList[alienIndex].x = 200 + alienIndex * 5;
         alienList[alienIndex].y = 500 ;
