@@ -1,0 +1,48 @@
+{"frames": {
+
+"WheelBoxReelsBackgroundL0.png":
+{
+	"frame": {"x":1,"y":1,"w":215,"h":618},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":0,"w":215,"h":618},
+	"sourceSize": {"w":294,"h":618}
+},
+"WheelBoxReelsBackgroundL1.png":
+{
+	"frame": {"x":218,"y":1,"w":215,"h":618},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":0,"w":215,"h":618},
+	"sourceSize": {"w":294,"h":618}
+},
+"WheelBoxReelsBackgroundLLit0.png":
+{
+	"frame": {"x":1,"y":621,"w":215,"h":618},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":0,"w":215,"h":618},
+	"sourceSize": {"w":294,"h":618}
+},
+"WheelBoxReelsBackgroundLLit1.png":
+{
+	"frame": {"x":218,"y":621,"w":215,"h":618},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":0,"w":215,"h":618},
+	"sourceSize": {"w":294,"h":618}
+}},
+"animations": {
+	"WheelBoxReelsBackgroundL": ["WheelBoxReelsBackgroundL0.png","WheelBoxReelsBackgroundL1.png"],
+	"WheelBoxReelsBackgroundLLit": ["WheelBoxReelsBackgroundLLit0.png","WheelBoxReelsBackgroundLLit1.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "stormlords.png",
+	"format": "RGBA8888",
+	"size": {"w":434,"h":1240},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f6fc4535b44bf3b7ea6d4a9714be85d6:f6736ad46f03e29cc059101d87eb1b7a:8fac91277757b493a73e9cb039d5e443$"
+}
+}
