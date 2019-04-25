@@ -6,7 +6,7 @@ PIXI.loader
     .load(onLoaded);
 
 var params = {
-    alienQuantity: 100,
+    alienQuantity: 4,
     refreshFrequency : 15
 };
 
@@ -23,12 +23,12 @@ var data = {
 function onLoaded (loader,res) {
     console.log("loaded");
     data.id = PIXI.loader.resources["goblins"].textures; 
-    for(var alienIndex = 0; alienIndex < 100; alienIndex++){
+    for(var alienIndex = 0; alienIndex < params.alienQuantity; alienIndex++){
         data.alienList[alienIndex] = new PIXI.Sprite(data.id["alien-ess-death_0.png"]);
         app.stage.addChild(data.alienList[alienIndex]);
         
-        data.alienList[alienIndex].x = 0 - alienIndex * 5;
-        data.alienList[alienIndex].y = -200 ;
+        data.alienList[alienIndex].x = -500 + alienIndex * 5;
+        data.alienList[alienIndex].y = -400 ;
     }
     app.ticker.add(delta => gameLoop(delta));
 }
